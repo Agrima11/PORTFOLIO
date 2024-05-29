@@ -1,0 +1,242 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio Website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+        <!-- navbar -->
+    
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">Portfolio Bingoo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav> 
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    
+  
+    <section class="container-fluid section bgimage" id="home">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero_text">
+                <h2 class="hero_title">Hi, it's me Agrima</h2>
+                <p class="hero_desc">I am a Web Developer Intern</p>
+            </div>
+        </div>
+    </section>
+     <!-- about section -->
+     <section class="container mt-4 pt-4 section" id="about">
+        <h1 class="text-center">About Me</h1>
+       
+
+        
+        <div class="row mt-4">
+            <div class="col-lg-6">
+                <img src="data:image/jpeg;base64,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" class="image_about" alt="">
+            </div>
+
+            <div class="col-lg-6">
+                <p> I am a web enthusiast, keen to know different things and ready to take handson experiences.
+                    My hobbies include-
+                </p>
+                <div class="row mt-3">
+                    <div class="col-md-6">
+                        <ul>
+                            <li>Coding</li>
+                            <li>Learning new languages</li>
+                            <li>Reading books</li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul>
+                            <li>Dancing</li>
+                            <li>Music</li>
+                            <li>Painting</li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <p> I am very passionate about making change in this society through my work and efforts.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- skills section-->
+    
+    <section class="container section" id="skills">
+        <h1 class="text-center">Skills</h1>
+        <div class="row">
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class="fas servicesIcon fa-clock"></i>
+                        <h4 class="card-title mt-3">Website Development</h4>
+                        <p class="card-text mt-3">Developing a website for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications
+                        </p>
+                    </div>
+                </div>  
+            </div>
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas servicesIcon fa-layer-group'></i>
+                        <h4 class="card-title mt-3">App Development</h4>
+                        <p class="card-text mt-3">Planning, designing, creating, testing, and deploying a software application to perform various business operations.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='far servicesIcon fa fa-cloud'></i>
+                        <h4 class="card-title mt-3">Cloud Computing</h4>
+                        <p class="card-text mt-3">Delivery of computing services—including servers, storage, databases, networking, software, analytics
+                        </p>
+                    </div>
+                </div>  
+            </div>
+        </div>
+</section>
+<!--projects-->
+<section class="section" id="projects">
+    <div class="container mt-3">
+        <h1 class="text-center">Projects</h1>
+        <div class="row">
+            <div class="col-lg-4 mt-4">
+                <div class="card">
+                    <div class="card-body">
+                        <i class='far servicesIcon fa fa-calculator'></i>
+                        <h4 class="card-title">Calculator</h4>
+                        <p class="card-text"></p>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-success">Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card">
+                    <div class="card-body">
+                        <i class='far servicesIcon fa fa-shopping-cart'></i>
+                        <h4 class="card-title">Letty Shops</h4>
+                        <p class="card-text"></p>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-success">Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card">
+                    <div class="card-body">
+                        <i class='far servicesIcon fa fa-gifts'></i>
+                        <h4 class="card-title">Ferns & Petels</h4>
+                        <p class="card-text"></p>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-success">Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+<!--Contacts-->
+<section class="container mt-3 section" id="contact">
+    <h1 class="text-center">Contact Me</h1>
+
+    <div class="row mt-4">
+        <div class="col-lg-6">
+            <!-- formforcontacts -->
+            <form>
+                <input type="text" class="form-control form-control-lg" placeholder="Name">
+                <input type="email" class="form-control mt-3" placeholder="Email">
+                <input type="number" class="form-control mt-3" placeholder="Phone Number">
+                <input type="text" class="form-control mt-3" placeholder="Address">
+                <input type="number" class="form-control mt-3" placeholder="Pincode">
+             </form>
+            <button type="button" class="btn btn-success mt-3">Contact Me</button>
+        </div>
+    </div>
+    
+</section>
+
+<!-- footer section-->
+<footer class="footer" id="footer">
+    <!-- social media icons -->
+    <div class="social-icons mt-4">
+        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch"></i></a>
+    </div>
+</footer>
+</body>
+</html>
